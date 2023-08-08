@@ -1,0 +1,25 @@
+.container {
+  max-width: 40rem;
+  padding: 0 1rem;
+  margin: 3rem auto 6rem;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+}
+
+.backToHome {
+  margin: 3rem 0 0;
+}
+
+.backToHome a {
+  margin: 3rem 0 0;
+  background-color: #aa0000;
+  color: white;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: small;
+  font-weight: 500;
+}
