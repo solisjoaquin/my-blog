@@ -18,7 +18,7 @@ export default function Home({ allPostsData }) {
           solver. Able to create well designed websites.
         </p>
 
-        <h2 className={utilStyles.headingLg}>Blog</h2>
+        <h2 className={utilStyles.headingLg}>Notes</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, label }) => (
             <li className={utilStyles.listItem} key={id}>

@@ -1,6 +1,6 @@
 ---
 title: "Key UX Considerations for Smartphones and Tablets"
-date: "2023-07-08"
+date: "2023-08-07"
 label: "UX"
 ---
 
