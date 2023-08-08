@@ -16,7 +16,7 @@ const Navbar = () => {
           href="https://www.linkedin.com/in/joaquinsolis/"
           target="_blank"
         >
-          LinkedIn
+          Linkedin
         </a>
         <a
           className={styles.navbarLink}
