@@ -11,3 +11,5 @@ The mobile UX design is defined in three ways: Visual, Interruptible and Playful
 - **Interruptible**: Can the user pick up a task or navigate easily after an interruption? Are related elements spaced properly so that users don’t accidentally commit errors?
 
 - **Playful**: Does the interface consider the user’s emotional or social context?
+
+Source: [Interaction Design Foundation](https://www.interaction-design.org/)

@@ -35,3 +35,5 @@ Accessibility is a fundamental part of UX design, not just a box to tick or a gu
 ## 8. Make it Inclusive
 
 Accessibility and inclusivity are in many ways connected. Inclusiveness in UX design is not just about making your experience accessible for everyone; it’s about making your users feel welcome, respected, represented and included.
+
+Source: [Interaction Design Foundation](https://www.interaction-design.org/)

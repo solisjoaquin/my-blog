@@ -29,3 +29,5 @@ Tablets are:
 - More likely to invite the “free browsing” of content versus the more focused experience of scrolling through images and text on mobile
 
 Both tablets and smartphones require “fat finger friendly” designs. 44-pixel targets are a recommended minimum for buttons, icons, etc.
+
+Source: [Interaction Design Foundation](https://www.interaction-design.org/)

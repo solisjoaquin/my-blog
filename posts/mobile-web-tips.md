@@ -91,3 +91,5 @@ As users move between mobile and desktop, they will expect similar experiences. 
 - Maintain consistency. Offer the option to switch between mobile and desktop at will.
 
 - Maintain brand. The look and feel of each version should be similar.
+
+Source: [Interaction Design Foundation](https://www.interaction-design.org/)

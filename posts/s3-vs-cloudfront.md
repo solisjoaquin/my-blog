@@ -9,3 +9,5 @@ label: "Cloud"
 **Amazon CloudFront** is a Content Delivery Network (CDN) which proxies and caches web data at edge locations as close to users as possible.
 
 ![s3-vs-cloudfront](https://i.stack.imgur.com/eEDGb.png)
+
+Source: [Stackoverflow](https://stackoverflow.com/questions/3327425/when-to-use-amazon-cloudfront-or-s3)
