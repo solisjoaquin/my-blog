@@ -18,18 +18,6 @@ export default function Home({ allPostsData }) {
           solver. Able to create well designed websites.
         </p>
 
-        <h2 className={utilStyles.headingLg}>Podcast</h2>
-        <iframe
-          //style="border-radius:12px"
-          src="https://open.spotify.com/embed/episode/3ROJy7Sh4QhxOYhy5nr2nC?utm_source=generator&theme=0"
-          width="100%"
-          height="152"
-          frameBorder="0"
-          allowfullscreen=""
-          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-          loading="lazy"
-        ></iframe>
-
         <h2 className={utilStyles.headingLg}>Notes</h2>
         <ul className={utilStyles.list}>
           {allPostsData.map(({ id, date, title, label }) => (
