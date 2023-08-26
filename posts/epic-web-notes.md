@@ -108,11 +108,14 @@ In this case, because we know we're going to have several routes under the /user
 
 if a component is URL Nested but not Layout Nested we'll need to add an underscore to the filename
 
-routes ** users+
-|** kody.tsx
-|** kody\_+
-|** notes.index.tsx
-|\_\_ notes.some-notes-id.txs
+```
+routes
+|users+
+|   kody.tsx
+|   kody_+
+|       notes.index.tsx
+|       notes.some-notes-id.txs
+```
 
 ### Route Params
 
@@ -130,3 +133,11 @@ export default function PetRoute() {
 	return <h1>Hello {params.petName}</h1>
 }
 ```
+
+### Fetching Data
+
+When a user goes to a URL, the browser makes a request to the server. The server then sends back a response, which is usually HTML. The browser then renders the HTML into a page. The HTML can contain references to other resources, such as images, CSS, and JavaScript. The browser will make requests for these resources and process them as well.
+That initial request for HTML normally comes with all the information the user expects to see. However, users of modern web applications expect to be able to interact with the page without reloading it. So, to keep the data that's on the page up-to-date as the user makes changes and navigates around, the application also needs to make requests to the server for data. Around 2006, a new technology was developed for this purpose called **AJAX**. AJAX stands for _Asynchronous JavaScript and XML_. It's a way of making requests to the server without reloading the page.
+These days, web applications typically use a newer web standard called **fetch**. Among other things, this API allows the browser to make requests to a server without triggering a full page refresh. There are various parts to this API, but two critical objects are called `Request` and `Response`.
+
+We can use this API to make requests to our servers to get data. Normally, a request for data will return a JSON object which is a string that looks like a JavaScript object. We can use the JSON.parse function to convert this string into a JavaScript object, but this is so common, that the fetch Response object has a special method (called .json()) to parse the JSON response for us.
