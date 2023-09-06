@@ -46,6 +46,14 @@
   align-items: center;
   gap: 1rem;
 }
+
+.iconContainerCalendar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2px;
+}
 /* reduce size of text of navLogo and navbarLink for mobile screens*/
 
 @media (max-width: 600px) {
@@ -54,7 +62,7 @@
   }
 
   .linkContainer {
-    gap: 0.5rem;
+    gap: 1rem;
   }
 
   .navbarLink {
@@ -63,5 +71,9 @@
 
   .navbarLink:hover {
     font-size: 0.8rem;
+  }
+
+  .iconContainerCalendar {
+    margin-bottom: 3px;
   }
 }

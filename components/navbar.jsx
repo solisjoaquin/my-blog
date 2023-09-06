@@ -31,7 +31,7 @@ const Navbar = () => {
               viewBox="0 0 24 24"
               strokeWidth="1.5"
               stroke="currentColor"
-              width={20}
+              width={25}
             >
               <path
                 strokeLinecap="round"
@@ -47,14 +47,14 @@ const Navbar = () => {
           href="https://calendly.com/joaquinsolis/lets-talk"
           target="_blank"
         >
-          <div className={styles.iconContainer}>
+          <div className={styles.iconContainerCalendar}>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
               viewBox="0 0 24 24"
               strokeWidth={1.5}
               stroke="currentColor"
-              width={21}
+              width={25}
             >
               <path
                 strokeLinecap="round"
